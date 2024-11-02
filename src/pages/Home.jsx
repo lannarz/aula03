@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ListarProdutos from "./ListarProdutos";
+import styles from '../../styles/listarProdutos.module.css'
 
 export default function Home() {
 
@@ -22,7 +23,9 @@ export default function Home() {
 
     return (
         <>
-            <h1>Produtos Disponíveis</h1>
+             
+
+           <h1 className={styles.lp}>Produtos Disponíveis</h1>
            <ListarProdutos lista={lista}/>
         </>
     );

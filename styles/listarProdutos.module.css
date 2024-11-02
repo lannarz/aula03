@@ -1,3 +1,4 @@
+
 .bloco{
     display: flex;
     flex-direction: row;
@@ -18,22 +19,45 @@
 
 .foto{
     width: 45%;
-    height: 45%;
-    margin-top: -15px;
+    height: 40%;
 }
 
 .valor{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     align-self: flex-start;
     margin-left: 10px;
-    margin-bottom: -15px;
+    margin-bottom: -8px;
 }
 
 .titulo{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     align-self: flex-start;
     margin-left: 10px;
+}
+
+.botao{
+    background-color: #000000; /* Cor de fundo */
+    ; /* Cor de fundo */
+    color: white;
+    padding: 10px 70px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Manter em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margens */
+    cursor: pointer; /* Cursor de mão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.botao:hover {
+    background-color: #119733; /* Cor de fundo ao passar o mouse */
+}
+
+.lp{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7%;
 }
