@@ -1,3 +1,10 @@
+.carregando{
+    margin-left: 43%;
+    margin-top: 15%;
+    width: 100px;
+    height: 100px;
+   
+}
 
 .bloco{
     display: flex;

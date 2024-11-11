@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ListarProdutos from "./ListarProdutos";
-import styles from '../../styles/listarProdutos.module.css'
+import styles from '../styles/listarProdutos.module.css'
 
 export default function Home() {
 
@@ -20,6 +20,7 @@ export default function Home() {
 
         receberListaProdutos();
     }, []);
+
 
     return (
         <>

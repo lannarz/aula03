@@ -1,10 +1,15 @@
-import styles from '../../styles/listarProdutos.module.css'
+import styles from '../styles/listarProdutos.module.css'
+import Loading from './componentes/Loading'
+
 
 export default function ListarProdutos({lista}) {
+
+    if(lista.length === 0){
+        return <Loading/>
+    
+    }
     return(
         <>
-
-
             <ul className={styles.bloco}>
                 {lista.map(produto => (
                     <li className={styles.li} key={produto.id}>
