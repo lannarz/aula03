@@ -51,7 +51,6 @@
     color: white;
     padding: 10px 70px; /* Espaçamento interno */
     text-align: center; /* Centralizar texto */
-    text-decoration: none; /* Remover sublinhado */
     display: inline-block; /* Manter em linha */
     font-size: 16px; /* Tamanho da fonte */
     margin: 4px 2px; /* Margens */
@@ -67,4 +66,25 @@
 .lp{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 7%;
+}
+
+
+
+
+
+.filtros{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.az{
+    cursor: pointer; 
+    padding: 6px 15px;
+}
+
+.za{
+    cursor: pointer; 
+    padding: 6px 15px;
 }
